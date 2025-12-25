@@ -5,3 +5,10 @@ It analyzes user listening behavior and song information to generate **personali
 The trained machine learning model is exposed through a **REST API**, enabling real-time song recommendations.
 
 ---
+
+## 📌 Project Overview
+
+Music streaming platforms rely heavily on recommendation systems to enhance user experience.  
+This project demonstrates how **collaborative filtering** can be used to recommend songs based on user listening history and how the trained model can be deployed using an API.
+
+---
