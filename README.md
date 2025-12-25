@@ -63,10 +63,10 @@ User Receives Recommendations
 
 ```
 music-recommendation-system/
-├── api/            # API source code
-├── data/           # Dataset files (ignored in GitHub)
-├── model/          # Saved trained models
-├── notebooks/      # EDA and experiments
+├── api/            
+├── data/           
+├── model/          
+├── notebooks/      
 ├── .gitignore
 ├── README.md
 └── requirements.txt
