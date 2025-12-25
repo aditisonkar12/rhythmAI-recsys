@@ -53,8 +53,8 @@ User Receives Recommendations
 | Programming Language | Python |
 | Data Processing | Pandas, NumPy |
 | ML Library | Surprise |
-| Model Storage| Joblib |
-| API| Flask / FastAPI |
-| Version Control| Firebase / Node.js + Express / MongoDB |
+| Model Storage | Joblib |
+| API | Flask / FastAPI |
+| Version Control | Firebase / Node.js + Express / MongoDB |
 
 ---
