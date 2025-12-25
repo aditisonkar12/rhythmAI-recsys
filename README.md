@@ -6,6 +6,12 @@ The trained machine learning model is exposed through a **REST API**, enabling r
 
 ---
 
+## 🎯 Tagline
+
+**“Listen Smarter. Discover Better Music.” 🎧✨**
+
+---
+
 ## 📌 Project Overview
 
 Music streaming platforms rely heavily on recommendation systems to enhance user experience.  
