@@ -12,9 +12,14 @@ The trained machine learning model is exposed through a **REST API**, enabling r
 
 ---
 
-## 📌 Project Overview
+## 🚀 Features
 
-Music streaming platforms rely heavily on recommendation systems to enhance user experience.  
-This project demonstrates how **collaborative filtering** can be used to recommend songs based on user listening history and how the trained model can be deployed using an API.
+- ✅ Personalized song recommendations
+- 👤 User-based collaborative filtering
+- 📊 Model evaluation using RMSE & MAE
+- 💾 Trained model persistence using Joblib
+- 🌐 REST API for real-time recommendations
+- ⚙️ Scalable architecture for future extensions
+- 🧪 Offline training with online inference support
 
 ---
