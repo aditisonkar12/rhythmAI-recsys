@@ -61,6 +61,7 @@ User Receives Recommendations
 
 ## 📁 Project Structure
 
+```
 music-recommendation-system/
 ├── api/            # API source code
 ├── data/           # Dataset files (ignored in GitHub)
@@ -69,6 +70,7 @@ music-recommendation-system/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
