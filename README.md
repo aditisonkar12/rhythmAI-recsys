@@ -8,19 +8,19 @@ The trained machine learning model is exposed through a **REST API**, enabling r
 
 ## 🎯 Tagline
 
-**“Listen Smarter. Discover Better Music.” 🎧✨**
+**“Listen Smarter. Discover Better Music.” 🎧**
 
 ---
 
 ## 🚀 Features
 
-- ✅ Personalized song recommendations
-- 👤 User-based collaborative filtering
-- 📊 Model evaluation using RMSE & MAE
-- 💾 Trained model persistence using Joblib
-- 🌐 REST API for real-time recommendations
-- ⚙️ Scalable architecture for future extensions
-- 🧪 Offline training with online inference support
+- Personalized song recommendations
+- User-based collaborative filtering
+- Model evaluation using RMSE & MAE
+- Trained model persistence using Joblib
+- REST API for real-time recommendations
+- Scalable architecture for future extensions
+- Offline training with online inference support
 
 ---
 
