@@ -57,6 +57,16 @@ User Receives Recommendations
 | API | Flask / FastAPI |
 | Version Control | Git & GitHub |
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightblue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Recommender-brightgreen)
+![Surprise](https://img.shields.io/badge/Surprise-Recommendation%20Library-orange)
+![Joblib](https://img.shields.io/badge/Joblib-Model%20Storage-yellow)
+![API](https://img.shields.io/badge/API-Flask%20%2F%20FastAPI-red)
+![Git](https://img.shields.io/badge/Git-Version%20Control-black)
+![GitHub](https://img.shields.io/badge/GitHub-Code%20Hosting-purple)
+
 ---
 
 ## 📁 Project Structure
@@ -87,12 +97,6 @@ Aditi Sonkar
 This project is licensed under the MIT License — free to use, modify, and distribute.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
-
----
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Recommender-green)
-![API](https://img.shields.io/badge/API-Flask%2FFastAPI-orange)
 
 ---
 
