@@ -3,3 +3,4 @@ __pycache__/
 .env
 data/*.csv
 model/*.pkl
+.DS_Store
