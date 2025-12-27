@@ -6,12 +6,6 @@ The trained machine learning model is exposed through a **REST API**, enabling r
 
 ---
 
-## 🎯 Tagline
-
-**“Listen Smarter. Discover Better Music.” 🎧**
-
----
-
 ## 🚀 Features
 
 - Personalized song recommendations
@@ -97,6 +91,10 @@ Aditi Sonkar
 This project is licensed under the MIT License — free to use, modify, and distribute.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
+
+---
+
+## 🚧 Work in Progress
 
 ---
 
