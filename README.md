@@ -25,11 +25,11 @@ KKBOX Dataset
    ↓
 Data Cleaning & EDA
    ↓
-Feature Engineering
+User–Item Interaction Matrix
    ↓
-Model Training (Collaborative Filtering)
+ALS Model Training (Implicit Collaborative Filtering)
    ↓
-Model Evaluation
+Top-N Recommendation Generation
    ↓
 Model Serialization
    ↓
