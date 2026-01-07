@@ -56,7 +56,6 @@ User Receives Recommendations
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightblue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Recommender-brightgreen)
-![Surprise](https://img.shields.io/badge/Surprise-Recommendation%20Library-orange)
 ![Joblib](https://img.shields.io/badge/Joblib-Model%20Storage-yellow)
 ![API](https://img.shields.io/badge/API-Flask%20%2F%20FastAPI-red)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-black)
