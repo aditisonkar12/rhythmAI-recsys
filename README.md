@@ -46,7 +46,8 @@ User Receives Recommendations
 |------|------------|
 | Programming Language | Python |
 | Data Processing | Pandas, NumPy |
-| ML Library | Surprise |
+| Visualization | Matplotlib, Seaborn |
+| ML Library | Implicit (ALS) |
 | Model Storage | Joblib |
 | API | Flask / FastAPI |
 | Version Control | Git & GitHub |
