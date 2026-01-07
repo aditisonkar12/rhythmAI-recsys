@@ -1,5 +1,7 @@
-pandas
 numpy
-scikit-surprise
+pandas
+matplotlib
+seaborn
+implicit
 joblib
 flask
