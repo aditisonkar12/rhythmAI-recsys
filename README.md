@@ -9,8 +9,8 @@ The trained machine learning model is exposed through a **REST API**, enabling r
 ## 🚀 Features
 
 - Personalized song recommendations
-- User-based collaborative filtering
-- Model evaluation using RMSE & MAE
+- Implicit-feedback collaborative filtering
+- Matrix Factorization using ALS
 - Trained model persistence using Joblib
 - REST API for real-time recommendations
 - Scalable architecture for future extensions
