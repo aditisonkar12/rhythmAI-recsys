@@ -1,11 +1,12 @@
 from flask import Flask, jsonify
 import joblib
 from scipy.sparse import load_npz
+import os
 
 song_metadata = joblib.load(f"{MODEL_DIR}/song_metadata.pkl")
 
 # Model artifacts
-MODEL_DIR = "../model"
+MODEL_DIR = os.path.join(os.path.dirname(__file__), "../model")
 
 als_model = joblib.load(f"{MODEL_DIR}/als_model.pkl")
 user_item_matrix = load_npz(f"{MODEL_DIR}/user_item_matrix.npz")
