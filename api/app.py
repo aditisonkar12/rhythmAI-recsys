@@ -54,11 +54,14 @@ def recommend_songs(original_user_id, N=10):
 
         meta = song_metadata.get(song_id, {})
 
+        genre_raw = meta.get("genre_ids", "")
+        genres = [GENRE_MAP[g] for g in genre_raw.split("|") if g in GENRE_MAP]
+        
         recommendations.append({
             "song_id": song_id,
-            "artist_name": meta.get("artist_name"),
-            "genre_ids": meta.get("genre_ids"),
-            "language": meta.get("language")
+            "artist": meta.get("artist_name", "Unknown"),
+            "genres": genres,
+            "language": LANGUAGE_MAP.get(meta.get("language"), "Unknown")
         })
 
     return recommendations
