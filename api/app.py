@@ -23,6 +23,12 @@ GENRE_MAP = {
     "139": "Jazz"
 }
 
+# Language mapping
+LANGUAGE_MAP = {
+    3.0: "Mandarin",
+    52.0: "English",
+    -1.0: "Unknown"
+}
 
 # function for recommending songs
 def recommend_songs(original_user_id, N=10):
