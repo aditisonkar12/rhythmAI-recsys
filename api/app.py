@@ -27,14 +27,14 @@ def recommend_songs(original_user_id, N=10):
     return [id_to_song[i] for i in item_ids]
 
 # flask
+from flask import Flask, jsonify
+
 app = Flask(__name__)
 
-@app.route("/recommend/<user_id>")
-def recommend(user_id):
-    songs = recommend_songs(user_id)
+@app.route("/")
+def home():
     return jsonify({
-        "user_id": user_id,
-        "recommended_songs": songs
+        "status": "Music Recommendation API is running"
     })
 
 if __name__ == "__main__":
