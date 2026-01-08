@@ -3,8 +3,6 @@ import joblib
 from scipy.sparse import load_npz
 import os
 
-song_metadata = joblib.load(f"{MODEL_DIR}/song_metadata.pkl")
-
 # Model artifacts
 MODEL_DIR = os.path.join(os.path.dirname(__file__), "../model")
 
@@ -12,6 +10,7 @@ als_model = joblib.load(f"{MODEL_DIR}/als_model.pkl")
 user_item_matrix = load_npz(f"{MODEL_DIR}/user_item_matrix.npz")
 user_id_mapping = joblib.load(f"{MODEL_DIR}/user_id_mapping.pkl")
 id_to_song = joblib.load(f"{MODEL_DIR}/id_to_song.pkl")
+song_metadata = joblib.load(f"{MODEL_DIR}/song_metadata.pkl")
 
 # function for recommending songs
 def recommend_songs(original_user_id, N=10):
