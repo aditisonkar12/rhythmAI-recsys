@@ -2,6 +2,8 @@ from flask import Flask, jsonify
 import joblib
 from scipy.sparse import load_npz
 
+song_metadata = joblib.load(f"{MODEL_DIR}/song_metadata.pkl")
+
 # Model artifacts
 MODEL_DIR = "../model"
 
@@ -24,7 +26,24 @@ def recommend_songs(original_user_id, N=10):
         N=N
     )
 
-    return [id_to_song[i] for i in item_ids]
+    recommendations = []
+
+    for internal_item_id in item_ids:
+        song_id = id_to_song.get(internal_item_id)
+
+        if song_id is None:
+            continue
+
+        meta = song_metadata.get(song_id, {})
+
+        recommendations.append({
+            "song_id": song_id,
+            "artist_name": meta.get("artist_name"),
+            "genre_ids": meta.get("genre_ids"),
+            "language": meta.get("language")
+        })
+
+    return recommendations
 
 # flask
 app = Flask(__name__)
