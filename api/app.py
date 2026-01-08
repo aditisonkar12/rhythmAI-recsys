@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 import joblib
 from scipy.sparse import load_npz
 import os
+import math
 
 # Model artifacts
 MODEL_DIR = os.path.join(os.path.dirname(__file__), "../model")
@@ -54,9 +55,15 @@ def recommend_songs(original_user_id, N=10):
 
         meta = song_metadata.get(song_id, {})
 
-        genre_raw = meta.get("genre_ids", "")
-        genres = [GENRE_MAP[g] for g in genre_raw.split("|") if g in GENRE_MAP]
-        
+        genre_raw = meta.get("genre_ids")
+        genres = []
+        if genre_raw is not None:
+            genre_str = str(int(genre_raw)) if isinstance(genre_raw, float) else str(genre_raw)
+            for g in genre_str.split("|"):
+                if g in GENRE_MAP:
+                    genres.append(GENRE_MAP[g])
+
+
         recommendations.append({
             "song_id": song_id,
             "artist": meta.get("artist_name", "Unknown"),
