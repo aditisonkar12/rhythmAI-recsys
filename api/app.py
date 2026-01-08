@@ -37,5 +37,25 @@ def home():
         "status": "Music Recommendation API is running"
     })
 
+
 if __name__ == "__main__":
     app.run(debug=True)
+
+@app.route("/recommend/<string:msno>")
+def recommend(msno):
+
+    songs = recommend_songs(msno, N=10)
+
+    if not songs:
+        return jsonify({"error": "User not found"}), 404
+
+    return jsonify({
+        "user": msno,
+        "recommendations": songs
+    })
+
+@app.route("/users")
+def get_sample_users():
+    return jsonify({
+        "sample_users": list(user_id_mapping.keys())[:10]
+    })
