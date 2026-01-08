@@ -12,6 +12,18 @@ user_id_mapping = joblib.load(f"{MODEL_DIR}/user_id_mapping.pkl")
 id_to_song = joblib.load(f"{MODEL_DIR}/id_to_song.pkl")
 song_metadata = joblib.load(f"{MODEL_DIR}/song_metadata.pkl")
 
+# Genre mapping (extend later if needed)
+GENRE_MAP = {
+    "465": "Pop",
+    "958": "Classical",
+    "451": "Soundtrack",
+    "2022": "Rock",
+    "1259": "Indie",
+    "458": "Mandarin Pop",
+    "139": "Jazz"
+}
+
+
 # function for recommending songs
 def recommend_songs(original_user_id, N=10):
     if original_user_id not in user_id_mapping:
