@@ -57,11 +57,13 @@ def recommend_songs(original_user_id, N=10):
 
         genre_raw = meta.get("genre_ids")
         genres = []
-        if genre_raw is not None:
+        if genre_raw is not None and not (isinstance(genre_raw, float) and math.isnan(genre_raw)):
             genre_str = str(int(genre_raw)) if isinstance(genre_raw, float) else str(genre_raw)
+
             for g in genre_str.split("|"):
                 if g in GENRE_MAP:
                     genres.append(GENRE_MAP[g])
+
 
 
         recommendations.append({
