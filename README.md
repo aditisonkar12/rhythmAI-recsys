@@ -162,6 +162,34 @@ GET /recommend/<msno>
 
 ---
 
+## ▶️ How to Run Locally
+
+```bash
+git clone https://github.com/your-username/music-recommendation-system.git
+cd music-recommendation-system
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cd api
+python app.py
+```
+
+Visit:
+👉 `http://127.0.0.1:5000/recommend/<msno>`
+
+---
+
+## 🔮 Future Improvements
+
+* Cold-start handling for new users/songs
+* Popularity bias correction
+* Recommendation confidence scores
+* Hybrid (content + collaborative) approach
+* Frontend UI for recommendations
+* Docker deployment
+
+---
+
 ## 🧑‍💻 Author
 
 Aditi Sonkar
@@ -226,33 +254,7 @@ This project is licensed under the MIT License — free to use, modify, and dist
 
 ---
 
-## ▶️ How to Run Locally
 
-```bash
-git clone https://github.com/your-username/music-recommendation-system.git
-cd music-recommendation-system
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-cd api
-python app.py
-```
-
-Visit:
-👉 `http://127.0.0.1:5000/recommend/<msno>`
-
----
-
-## 🔮 Future Improvements
-
-* Cold-start handling for new users/songs
-* Popularity bias correction
-* Recommendation confidence scores
-* Hybrid (content + collaborative) approach
-* Frontend UI for recommendations
-* Docker deployment
-
----
 
 ## 🧑‍💻 Author
 
