@@ -9,13 +9,14 @@ The system supports **offline model training** and **online inference**, making 
 
 ## 🚀 Features
 
-- Personalized song recommendations
-- Implicit-feedback collaborative filtering
-- Matrix Factorization using ALS
-- Trained model persistence using Joblib
-- REST API for real-time recommendations
-- Scalable architecture for future extensions
-- Offline training with online inference support
+* Personalized music recommendations per user
+* Collaborative Filtering using implicit feedback
+* Matrix Factorization with ALS (Implicit library)
+* Model persistence using Joblib
+* REST API for real-time recommendations
+* Metadata enrichment (artist, genre, language)
+* Clean separation of training and serving
+* Easily extensible for future improvements
 
 ---
 
@@ -107,6 +108,9 @@ This project is licensed under the MIT License — free to use, modify, and dist
 
 
 
+
+
+
 # 🎵 RhythmAI – Music Recommendation System
 
 
@@ -115,14 +119,7 @@ This project is licensed under the MIT License — free to use, modify, and dist
 
 ## 🚀 Key Features
 
-* 🎧 Personalized music recommendations per user
-* 🤝 Collaborative Filtering using implicit feedback
-* 🧮 Matrix Factorization with ALS (Implicit library)
-* 💾 Model persistence using Joblib
-* 🌐 REST API for real-time recommendations
-* 🎼 Metadata enrichment (artist, genre, language)
-* ⚙️ Clean separation of training and serving
-* 📈 Easily extensible for future improvements
+
 
 ---
 
