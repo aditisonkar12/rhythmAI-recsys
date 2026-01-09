@@ -26,7 +26,47 @@
     }
   </style>
 </head>
+
 <body>
-    
+    <h1>🎵 RhythmAI</h1>
+  <p>Enter a user ID (msno) to get music recommendations</p>
+
+  <input type="text" id="userId" placeholder="Enter msno" />
+  <button onclick="getRecommendations()">Recommend</button>
+
+  <div id="results"></div>
+
+  <script>
+    async function getRecommendations() {
+      const userId = document.getElementById("userId").value;
+      const resultsDiv = document.getElementById("results");
+      resultsDiv.innerHTML = "Loading...";
+
+      try {
+        const response = await fetch(
+          `http://127.0.0.1:5000/recommend/${userId}`
+        );
+        const data = await response.json();
+
+        if (data.error) {
+          resultsDiv.innerHTML = data.error;
+          return;
+        }
+
+        resultsDiv.innerHTML = "";
+        data.recommendations.forEach(song => {
+          resultsDiv.innerHTML += `
+            <div class="song">
+              <strong>Artist:</strong> ${song.artist}<br/>
+              <strong>Genres:</strong> ${song.genres.join(", ")}<br/>
+              <strong>Language:</strong> ${song.language}
+            </div>
+          `;
+        });
+      } catch (err) {
+        resultsDiv.innerHTML = "Error fetching recommendations";
+      }
+    }
+  </script>
 </body>
 </html>
