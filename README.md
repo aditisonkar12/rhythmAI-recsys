@@ -67,13 +67,27 @@ JSON Recommendations with Metadata
 
 ```
 music-recommendation-system/
-├── api/            
-├── data/           
-├── model/          
-├── notebooks/      
-├── .gitignore
+│
+├── api/
+│   └── app.py
+│
+├── data/
+│   └── songs.csv
+│
+├── model/
+│   ├── als_model.pkl
+│   ├── user_item_matrix.npz
+│   ├── user_id_mapping.pkl
+│   ├── id_to_song.pkl
+│   └── song_metadata.pkl
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   └── 02_model_als.ipynb
+│
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+└── .gitignore
 ```
 
 ---
@@ -208,30 +222,7 @@ This project is licensed under the MIT License — free to use, modify, and dist
 
 ## 📁 Project Structure
 
-```
-music-recommendation-system/
-│
-├── api/
-│   └── app.py
-│
-├── data/
-│   └── songs.csv
-│
-├── model/
-│   ├── als_model.pkl
-│   ├── user_item_matrix.npz
-│   ├── user_id_mapping.pkl
-│   ├── id_to_song.pkl
-│   └── song_metadata.pkl
-│
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   └── 02_model_als.ipynb
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+
 
 ---
 
