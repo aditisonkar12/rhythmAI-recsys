@@ -90,57 +90,6 @@ music-recommendation-system/
 
 ---
 
-
-## 🧑‍💻 Author
-
-Aditi Sonkar
-
-🔗 LinkedIn: https://www.linkedin.com/in/aditisonkar12/
-
----
-
-## 🏷️ License
-
-This project is licensed under the MIT License — free to use, modify, and distribute.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
-
----
-
-## 🚧 Work in Progress
-
----
-
-## ⭐ If you like this project, don’t forget to star the repo on GitHub!
-
-
-
-
-
-
-
-
-
-
-# 🎵 RhythmAI – Music Recommendation System
-
-
-
----
-
-## 🚀 Key Features
-
-
-
----
-
-## 🏗️ System Architecture
-
-
----
-
-
-
 ## 🌐 API Endpoints
 
 ### 🔹 Health Check
@@ -198,6 +147,58 @@ GET /recommend/<msno>
 ```
 
 ---
+
+## 🧑‍💻 Author
+
+Aditi Sonkar
+
+🔗 LinkedIn: https://www.linkedin.com/in/aditisonkar12/
+
+---
+
+## 🏷️ License
+
+This project is licensed under the MIT License — free to use, modify, and distribute.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
+
+---
+
+## 🚧 Work in Progress
+
+---
+
+## ⭐ If you like this project, don’t forget to star the repo on GitHub!
+
+
+
+
+
+
+
+
+
+
+# 🎵 RhythmAI – Music Recommendation System
+
+
+
+---
+
+## 🚀 Key Features
+
+
+
+---
+
+## 🏗️ System Architecture
+
+
+---
+
+
+
+
 
 ## 🧩 Tech Stack
 
