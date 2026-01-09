@@ -27,17 +27,17 @@ KKBOX Dataset
    ↓
 Data Cleaning & EDA
    ↓
-User–Item Interaction Matrix
+User–Item Interaction Matrix (Sparse)
    ↓
-ALS Model Training (Implicit Collaborative Filtering)
+ALS Model Training (Implicit CF)
    ↓
 Top-N Recommendation Generation
    ↓
-Model Serialization
+Model Serialization (Joblib)
    ↓
-REST API
+Flask REST API
    ↓
-User Receives Recommendations
+JSON Recommendations with Metadata
 ```
 
 ---
@@ -125,23 +125,6 @@ This project is licensed under the MIT License — free to use, modify, and dist
 
 ## 🏗️ System Architecture
 
-```
-KKBOX Dataset
-   ↓
-Data Cleaning & EDA
-   ↓
-User–Item Interaction Matrix (Sparse)
-   ↓
-ALS Model Training (Implicit CF)
-   ↓
-Top-N Recommendation Generation
-   ↓
-Model Serialization (Joblib)
-   ↓
-Flask REST API
-   ↓
-JSON Recommendations with Metadata
-```
 
 ---
 
