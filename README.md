@@ -44,24 +44,22 @@ JSON Recommendations with Metadata
 
 ## 🧩 Tech Stack
 
-| Layer | Technology |
-|------|------------|
-| Programming Language | Python |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| ML Library | Implicit (ALS) |
-| Model Storage | Joblib |
-| API | Flask / FastAPI |
-| Version Control | Git & GitHub |
+| Layer           | Technology             |
+| --------------- | ---------------------- |
+| Language        | Python                 |
+| Data Processing | Pandas, NumPy          |
+| Visualization   | Matplotlib             |
+| ML Algorithm    | ALS (Implicit Library) |
+| Sparse Ops      | SciPy                  |
+| Model Storage   | Joblib                 |
+| API             | Flask                  |
+| Version Control | Git & GitHub           |
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightblue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Recommender-brightgreen)
 ![Joblib](https://img.shields.io/badge/Joblib-Model%20Storage-yellow)
 ![API](https://img.shields.io/badge/API-Flask%20%2F%20FastAPI-red)
-![Git](https://img.shields.io/badge/Git-Version%20Control-black)
-![GitHub](https://img.shields.io/badge/GitHub-Code%20Hosting-purple)
 
 ---
 
@@ -200,16 +198,7 @@ GET /recommend/<msno>
 
 ## 🧩 Tech Stack
 
-| Layer           | Technology             |
-| --------------- | ---------------------- |
-| Language        | Python                 |
-| Data Processing | Pandas, NumPy          |
-| Visualization   | Matplotlib             |
-| ML Algorithm    | ALS (Implicit Library) |
-| Sparse Ops      | SciPy                  |
-| Model Storage   | Joblib                 |
-| API             | Flask                  |
-| Version Control | Git & GitHub           |
+
 
 ---
 
