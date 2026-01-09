@@ -78,6 +78,19 @@ music-recommendation-system/
 
 ---
 
+## 🧠 Recommendation Approach
+
+* **Algorithm**: Alternating Least Squares (ALS)
+* **Feedback Type**: Implicit (listening behavior)
+* **Why ALS?**
+
+  * Scales well with sparse user–item matrices
+  * Widely used in industry recommender systems
+  * Efficient for large datasets
+
+---
+
+
 ## 🧑‍💻 Author
 
 Aditi Sonkar
@@ -126,17 +139,7 @@ This project is licensed under the MIT License — free to use, modify, and dist
 
 ---
 
-## 🧠 Recommendation Approach
 
-* **Algorithm**: Alternating Least Squares (ALS)
-* **Feedback Type**: Implicit (listening behavior)
-* **Why ALS?**
-
-  * Scales well with sparse user–item matrices
-  * Widely used in industry recommender systems
-  * Efficient for large datasets
-
----
 
 ## 🌐 API Endpoints
 
