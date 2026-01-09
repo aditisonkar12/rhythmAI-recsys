@@ -182,11 +182,10 @@ Visit:
 ## 🔮 Future Improvements
 
 * Cold-start handling for new users/songs
-* Popularity bias correction
 * Recommendation confidence scores
-* Hybrid (content + collaborative) approach
 * Frontend UI for recommendations
 * Docker deployment
+* Hybrid (content + collaborative) approach
 
 ---
 
