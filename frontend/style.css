@@ -58,3 +58,16 @@ button:hover {
 #results {
   margin-top: 30px;
 }
+
+.loading {
+  color: #555;
+  font-style: italic;
+}
+
+.error {
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
