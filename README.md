@@ -195,8 +195,9 @@ cd api
 python app.py
 ```
 
-Visit:
-👉 `http://127.0.0.1:5000/recommend/<msno>`
+Access the app:
+🔹 API → http://127.0.0.1:5000/recommend/<msno>
+🔹 UI → http://127.0.0.1:5000/ui
 
 ---
 
@@ -204,7 +205,6 @@ Visit:
 
 * Cold-start handling for new users/songs
 * Recommendation confidence scores
-* Frontend UI for recommendations
 * Docker deployment
 * Hybrid (content + collaborative) approach
 
