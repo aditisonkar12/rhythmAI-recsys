@@ -7,7 +7,7 @@ The project follows a **real-world recommender system pipeline**, supporting **o
 
 ---
 
-## 🚀 Features
+## Features
 
 * Personalized music recommendations per user
 * Collaborative Filtering using implicit feedback
@@ -21,7 +21,7 @@ The project follows a **real-world recommender system pipeline**, supporting **o
 
 ---
 
-## 🖥️ User Interface Preview
+## User Interface Preview
 
 Below is the web-based UI for RhythmAI, where users can enter a user ID (`msno`) and instantly receive personalized music recommendations.
 
@@ -29,7 +29,7 @@ Below is the web-based UI for RhythmAI, where users can enter a user ID (`msno`)
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 KKBOX Dataset
@@ -53,7 +53,7 @@ JSON Recommendations with Metadata
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Layer           | Technology             |
 | --------------- | ---------------------- |
@@ -75,7 +75,7 @@ JSON Recommendations with Metadata
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 music-recommendation-system/
@@ -110,7 +110,7 @@ music-recommendation-system/
 
 ---
 
-## 🧠 Recommendation Approach
+## Recommendation Approach
 
 * **Algorithm**: Alternating Least Squares (ALS)
 * **Feedback Type**: Implicit (listening behavior)
@@ -122,7 +122,7 @@ music-recommendation-system/
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### 🔹 Health Check
 
@@ -191,7 +191,7 @@ GET /ui
 
 ---
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
 ```bash
 git clone https://github.com/your-username/music-recommendation-system.git
@@ -210,7 +210,7 @@ Access the app:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Cold-start handling for new users/songs
 * Recommendation confidence scores
@@ -219,7 +219,7 @@ Access the app:
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 Aditi Sonkar
 
@@ -227,7 +227,7 @@ Aditi Sonkar
 
 ---
 
-## 🏷️ License
+## License
 
 This project is licensed under the MIT License — free to use, modify, and distribute.
 
