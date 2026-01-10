@@ -169,6 +169,17 @@ GET /recommend/<msno>
   ]
 }
 ```
+---
+
+### 🔹 Web UI
+
+```
+GET /ui
+```
+
+* Enter a user ID (msno)
+* Click Recommend
+* View personalized recommendations instantly
 
 ---
 
