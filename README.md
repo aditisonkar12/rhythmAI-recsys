@@ -204,8 +204,8 @@ python app.py
 ```
 
 Access the app:
-🔹 API → http://127.0.0.1:5000/recommend/<msno>
-🔹 UI → http://127.0.0.1:5000/ui
+* **API** → http://127.0.0.1:5000/recommend/<msno>
+* **UI** → http://127.0.0.1:5000/ui
 
 ---
 
