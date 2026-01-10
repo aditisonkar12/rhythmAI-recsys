@@ -75,6 +75,12 @@ music-recommendation-system/
 ├── api/
 │   └── app.py
 │
+├── frontend/
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       └── style.css
+│
 ├── data/
 │   └── songs.csv
 │
