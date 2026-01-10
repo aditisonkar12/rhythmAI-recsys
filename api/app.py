@@ -76,7 +76,11 @@ def recommend_songs(original_user_id, N=10):
     return recommendations
 
 # flask
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder="../frontend/templates",
+    static_folder="../frontend/static"
+)
 
 @app.route("/")
 def home():
