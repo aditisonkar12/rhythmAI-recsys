@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>RhythmAI – Music Recommendation System</title>
@@ -7,11 +8,17 @@
 </head>
 
 <body>
+  <div class="container">
     <h1>🎵 RhythmAI</h1>
-  <p>Enter a user ID (msno) to get music recommendations</p>
+    <p class="subtitle">
+      Enter a user ID (msno) to get music recommendations
+    </p>
 
-  <input type="text" id="userId" placeholder="Enter msno" />
-  <button onclick="getRecommendations()">Recommend</button>
+    <div class="input-group">
+      <input type="text" id="userId" placeholder="Enter msno" />
+      <button onclick="getRecommendations()">Recommend</button>
+    </div>
+  </div>
 
   <div id="results"></div>
 
@@ -49,4 +56,5 @@
     }
   </script>
 </body>
+
 </html>
