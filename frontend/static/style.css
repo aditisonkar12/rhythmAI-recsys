@@ -67,7 +67,16 @@ p {
 }
 
 #results {
-  margin-top: 30px;
+  max-width: 800px;
+  margin: 20px auto 50px;
+}
+
+.song {
+  background: white;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .loading {
@@ -81,15 +90,6 @@ p {
   padding: 10px;
   border-radius: 8px;
   margin-top: 15px;
-}
-
-.song {
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 15px 20px;
-  margin-bottom: 15px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .song:hover {
