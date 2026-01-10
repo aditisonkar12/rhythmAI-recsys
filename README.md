@@ -1,9 +1,9 @@
 # 🎵 RhythmAI - Music Recommendation System
 
-**RhythmAI** is an end-to-end **Music Recommendation System** built using the **KKBOX dataset**.
-It leverages **implicit-feedback collaborative filtering** with **Alternating Least Squares (ALS)** to generate **personalized song recommendations**, exposed via a **Flask REST API**.
+**RhythmAI** is an end-to-end **Music Recommendation System** built using the **KKBOX dataset**.  
+It leverages **implicit-feedback collaborative filtering** with **Alternating Least Squares (ALS)** to generate **personalized music recommendations**, delivered through a **Flask REST API** and an **interactive web-based UI**.
 
-The system supports **offline model training** and **online inference**, making it suitable for real-world recommender system pipelines.
+The project follows a **real-world recommender system pipeline**, supporting **offline model training** and **online inference with live user interaction**.
 
 ---
 
