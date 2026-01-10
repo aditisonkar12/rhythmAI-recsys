@@ -108,8 +108,7 @@ def recommend(msno):
 
 @app.route("/ui")
 def serve_ui():
-    frontend_path = os.path.join(os.path.dirname(__file__), "../frontend")
-    return send_from_directory(frontend_path, "index.html")
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
