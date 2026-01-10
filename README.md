@@ -25,7 +25,7 @@ The project follows a **real-world recommender system pipeline**, supporting **o
 
 Below is the web-based UI for RhythmAI, where users can enter a user ID (`msno`) and instantly receive personalized music recommendations.
 
-![RhythmAI UI Screenshot](ui_screenshots/ui_demo.png)
+![RhythmAI UI Screenshot](ui_preview/ui_demo.png)
 
 ---
 
