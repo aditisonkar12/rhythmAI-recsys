@@ -38,32 +38,31 @@ p {
   color: #555;
 }
 
-.input-row {
+.input-group {
   display: flex;
-  gap: 10px;
-  margin-top: 20px;
+  justify-content: center;
+  gap: 12px;
 }
 
-input {
+.input-group input {
   flex: 1;
-  padding: 12px;
+  padding: 14px;
   font-size: 16px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid #ccc;
 }
 
-button {
-  padding: 12px 20px;
+.input-group button {
+  padding: 14px 22px;
   font-size: 16px;
-  border-radius: 8px;
   border: none;
-  cursor: pointer;
+  border-radius: 10px;
   background: #4f46e5;
   color: white;
-  transition: background 0.2s ease;
+  cursor: pointer;
 }
 
-button:hover {
+.input-group button:hover {
   background: #4338ca;
 }
 
