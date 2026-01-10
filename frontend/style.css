@@ -71,3 +71,21 @@ button:hover {
   border-radius: 8px;
   margin-top: 15px;
 }
+
+.song {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.song:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.song strong {
+  color: #111827;
+}
