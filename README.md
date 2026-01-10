@@ -55,7 +55,8 @@ JSON Recommendations with Metadata
 | ML Algorithm    | ALS (Implicit Library) |
 | Sparse Ops      | SciPy                  |
 | Model Storage   | Joblib                 |
-| API             | Flask                  |
+| Backend API     | Flask                  |
+| Frontend        | HTML, CSS, JavaScript  |
 | Version Control | Git & GitHub           |
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
