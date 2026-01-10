@@ -38,6 +38,8 @@ Model Serialization (Joblib)
    ↓
 Flask REST API
    ↓
+Frontend UI (HTML + CSS + JS)
+   ↓
 JSON Recommendations with Metadata
 ```
 
