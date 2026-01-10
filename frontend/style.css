@@ -89,3 +89,14 @@ button:hover {
 .song strong {
   color: #111827;
 }
+
+.badge {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-right: 6px;
+  margin-top: 5px;
+}
