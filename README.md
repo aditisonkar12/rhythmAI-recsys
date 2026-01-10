@@ -15,7 +15,8 @@ The project follows a **real-world recommender system pipeline**, supporting **o
 * Model persistence using Joblib
 * REST API for real-time recommendations
 * Metadata enrichment (artist, genre, language)
-* Clean separation of training and serving
+* Interactive frontend UI (HTML, CSS, JavaScript)
+* Clean separation of training, serving, and UI layers
 * Easily extensible for future improvements
 
 ---
