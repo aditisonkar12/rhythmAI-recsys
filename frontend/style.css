@@ -54,3 +54,7 @@ button {
 button:hover {
   background: #4338ca;
 }
+
+#results {
+  margin-top: 30px;
+}
