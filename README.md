@@ -178,7 +178,6 @@ GET /recommend/<msno>
 }
 ```
 ---
-
 ### 🔹 Web UI
 
 ```
